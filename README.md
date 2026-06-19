@@ -17,6 +17,8 @@ kubectl apply -f helm-mongo-express.yaml
 Verify:
 kubectl get deployments
 kubectl get services
+kubectl get pod
+kubectl logs <pod-name>
 ```
 
 ### Deploy Ingress
